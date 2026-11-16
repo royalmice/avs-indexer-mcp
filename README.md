@@ -69,6 +69,18 @@ Or use an API key from your dashboard:
 claude mcp add --transport http avs-indexer https://index.asiavirtualsolutions.com/mcp --header "Authorization: Bearer YOUR_KEY"
 ```
 
+### Cline
+
+```
+cline mcp install avs-indexer --transport http https://index.asiavirtualsolutions.com/mcp
+```
+
+If Cline asks you to sign in, log in and click **Allow**. Or use an API key from your dashboard:
+
+```
+cline mcp install avs-indexer --transport http https://index.asiavirtualsolutions.com/mcp --header "Authorization: Bearer YOUR_KEY"
+```
+
 ### Cursor and other MCP clients (mcp.json)
 
 ```json
